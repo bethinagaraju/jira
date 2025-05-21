@@ -1,0 +1,88 @@
+.team-members-table th,
+.team-members-table td {
+  padding: 1rem;
+  vertical-align: middle;
+}
+
+.team-members-table .table-header {
+  background-color: #f8f9fa;
+  border-bottom: 2px solid #dee2e6;
+}
+
+.team-members-table .table-row {
+  border-bottom: 1px solid #e9ecef;
+  transition: background-color 0.2s ease;
+}
+
+.team-members-table .table-row:hover {
+  background-color: #f1f3f5;
+}
+
+.member-avatar {
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+}
+
+.member-avatar-initials {
+  width: 40px;
+  height: 40px;
+  background-color: #007bff;
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.member-input {
+  width: 150px;
+}
+
+.member-input[type="email"] {
+  width: 200px;
+}
+
+.add-member-btn {
+  transition: all 0.2s ease;
+}
+
+.add-member-btn:hover {
+  transform: scale(1.05);
+}
+
+.remove-icon {
+  cursor: pointer;
+  color: #dc3545;
+  font-size: 16px;
+}
+
+.remove-icon:hover {
+  color: #b02a37;
+}
+
+/* Responsive adjustments */
+@media (max-width: 576px) {
+  .team-members-table th,
+  .team-members-table td {
+    padding: 0.75rem 0.5rem;
+  }
+
+  .member-avatar,
+  .member-avatar-initials {
+    width: 32px;
+    height: 32px;
+    font-size: 14px;
+  }
+
+  .member-input {
+    width: 120px;
+  }
+
+  .member-input[type="email"] {
+    width: 160px;
+  }
+
+  .form-control-sm,
+  .form-select-sm {
+    font-size: 0.875rem;
+  }
+}

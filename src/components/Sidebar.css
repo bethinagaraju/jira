@@ -1,0 +1,124 @@
+
+
+.sidebar {
+  width: 250px;
+  height: 100vh;
+  border-right: 1px solid #ddd;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.logo-container {
+  background: none;
+}
+
+.sidebar-logo-img {
+  width: 32px;
+  height: 32px;
+}
+
+.sidebar-logo-text {
+  font-weight: bold;
+  font-size: 1.8rem;
+  color: #007bff;
+  font-family: 'Georgia', serif;
+  letter-spacing: 0.05em;
+}
+
+.user-profile {
+  background-color: #007bff;
+  color: white;
+  border-radius: 8px;
+  border: none;
+  font-weight: 600;
+}
+
+.user-avatar {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+}
+
+.sidebar-nav {
+  font-weight: 500;
+  font-size: 1rem;
+}
+
+.sidebar-nav-link {
+  border-radius: 6px;
+  margin-bottom: 6px;
+  transition: all 0.2s;
+}
+
+.sidebar-nav-link:hover {
+  background-color: #e9ecef;
+  color: #007bff;
+}
+
+.sidebar-nav-icon {
+  font-size: 20px;
+}
+
+.sidebar-nav-icon-home {
+  color: #3B82F6;
+  filter: drop-shadow(0 2px 2px rgba(59, 130, 246, 0.2));
+}
+
+.sidebar-nav-icon-tasks {
+  color: #10B981;
+  filter: drop-shadow(0 2px 2px rgba(16, 185, 129, 0.2));
+}
+
+.sidebar-nav-icon-settings {
+  color: #6B7280;
+  filter: drop-shadow(0 2px 2px rgba(107, 114, 128, 0.2));
+  animation: spin 4s linear infinite;
+}
+
+.sidebar-nav-icon-members {
+  color: #8B5CF6;
+  filter: drop-shadow(0 2px 2px rgba(139, 92, 246, 0.2));
+}
+
+.projects-header {
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+.fa-plus {
+  cursor: pointer;
+  color: #007bff;
+}
+
+.fa-plus:hover {
+  color: #0056b3;
+}
+
+.project-item {
+  border-radius: 8px;
+  margin-bottom: 6px;
+  font-weight: 600;
+}
+
+.project-item:hover,
+.project-item:active {
+  background-color: #e9ecef;
+  color: #007bff;
+}
+
+
+
+.project-avatar {
+  width: 28px;
+  height: 28px;
+  color: white;
+  font-weight: 700;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

@@ -1,0 +1,55 @@
+.project-details-wrapper {
+    background-color: #f8f9fa;
+    min-height: 100vh;
+    padding: 2rem;
+  }
+  .project-card {
+    background-color: white;
+    border-radius: 0.5rem;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    padding: 1.5rem;
+    margin-bottom: 2rem;
+  }
+  .project-title {
+    font-size: 1.75rem;
+    font-weight: 700;
+    color: #343a40;
+  }
+  .project-input {
+    border: 2px solid #ced4da;
+    border-radius: 0.25rem;
+    padding: 0.5rem;
+    font-size: 1rem;
+  }
+  .project-input:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+  }
+  .member-badge {
+    background-color: #e9ecef;
+    color: #495057;
+    padding: 0.25rem 0.5rem;
+    border-radius: 0.25rem;
+    margin-right: 0.5rem;
+    margin-bottom: 0.5rem;
+    display: inline-flex;
+    align-items: center;
+  }
+  .member-remove-btn {
+    color: #dc3545;
+    margin-left: 0.25rem;
+    cursor: pointer;
+  }
+  .member-remove-btn:hover {
+    color: #b02a37;
+  }
+  .dropdown-item:hover {
+    background-color: #007bff;
+    color: white;
+  }
+  .action-btn {
+    transition: background-color 0.2s ease;
+  }
+  .action-btn:hover {
+    background-color: #0056b3;
+  }

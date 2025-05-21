@@ -1,0 +1,16 @@
+.member-item {
+    padding: 0.5rem;
+    margin-bottom: 0.25rem;
+    border-radius: 0.25rem;
+    cursor: pointer;
+    transition: background-color 0.2s ease, color 0.2s ease;
+  }
+  
+  .member-item:hover {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  .member-item.selected {
+    background-color: #e9ecef;
+  }
