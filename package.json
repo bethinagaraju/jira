@@ -1,7 +1,7 @@
 {
-  "name": "tasks-management",
-  "private": true,
-  "version": "0.0.0",
+  "name": "jira-task-management",
+
+  "version": "1.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -46,5 +46,25 @@
     "eslint-plugin-react-refresh": "^0.4.19",
     "globals": "^16.0.0",
     "vite": "^6.3.1"
-  }
+  },
+  "description": "Reusable Jira-like task management UI components built with React.",
+  "main": "dist/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bethinagaraju/jira-ui-components.git"
+  },
+  "keywords": [
+    "react",
+    "jira",
+    "ui-components",
+    "task-management",
+    "modal",
+    "dashboard"
+  ],
+  "author": "Bethi Nagaraju",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bethinagaraju/jira-ui-components/issues"
+  },
+  "homepage": "https://github.com/bethinagaraju/jira-ui-components#readme"
 }
